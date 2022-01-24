@@ -34,10 +34,10 @@ async function handleLogout(){
         {error && <Alert variant="danger">{error}</Alert>}
         <strong>Email:</strong>{currentUser.email}
       </Card.Body>
-    </Card>
+  </Card>*/}
     <div className="w-100 text-center mb-2">
       <Button variant="link" onClick={handleLogout}>Log Out</Button>
-  </div>*/}
+  </div>
    <div className='images'>
    <a target="_blank" href={process.env.PUBLIC_URL + "normalH.html"} > <img src={image1} /> </a>
    <a target="_blank" href={process.env.PUBLIC_URL + "kitchen.html"} > <img src={image2} /> </a>

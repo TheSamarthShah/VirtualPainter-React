@@ -2,6 +2,7 @@ import React, {useRef, useState} from 'react';
 import {Form, Buttom, Card, Button, Alert} from 'react-bootstrap';
 import { useAuth } from '../context/AuthContext';
 import {Link, useNavigate} from 'react-router-dom';
+import './signup.css'
 export default function Signup() {
     const emailRef = useRef()
     const passwordRef = useRef()
@@ -31,7 +32,7 @@ export default function Signup() {
 
   return(
    <>
-        <Card>
+        <Card className="main">
             <Card.Body>
                 <h2 className='text-center mb-4'>Sign Up</h2>
                 {error && <Alert varient="danger">{error}</Alert>}

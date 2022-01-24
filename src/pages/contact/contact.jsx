@@ -7,7 +7,12 @@ import React from 'react';
 const Contact = () =>{
   return (
    <>
-    <h1>Contact</h1>
+   <br /><br />
+    <h5>
+      Name: Samarth Shah <br />
+      Email: iamsamarthshah@gmail.com <br />
+      Phone: +91 9510141038
+    </h5>
    </>
   );
 }
